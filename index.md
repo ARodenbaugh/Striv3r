@@ -137,7 +137,7 @@
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight" style="position: relative; text-align: center;">
-                <a href="https://www.instagram.com/hi.kekai/?hl=en" target="_blank"><img src="/img/surfup.png" alt="Paris" width="400" height="300" border="5">
+                <a href="https://www.instagram.com/hi.kekai/?hl=en" target="_blank"><img src="img/surfup.png" alt="Paris" width="400" height="300" border="5">
                 </a><!-- https://www.instagram.com/hi.kekai/?hl=en -->
           </div>
         </div>
