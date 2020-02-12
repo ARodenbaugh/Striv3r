@@ -416,24 +416,24 @@
         </div>
         <div class="row" style="display: table; padding-top: 40px;">
           <!-- Kaylee's review-->
-          <div class="ReviewCol1" style="float: left; margin-left: 30px;margin-top: 20px;">
+          <div class="ReviewCol1">
 
             <div class="pic"><img src="img/Kaylee_Striv3r.jpg" width="245" height="255" alt="Kaylee pic"></div>
 
           </div>
-          <div class="ReviewCol2" style="background-color: white; height: 255px; width: 245px; float: left; padding: 25px; margin-top: 20px;">
+          <div class="ReviewCol2">
 
             <h6><i> "Blah Blah Blah Blah Blah Bla Blah Blah Bla Blah Blah Bla. Blah Blah Bla Blah Blah Bla.  Blah Blah Bla Blah Blah Bla. "<i></h6>
             <h6> - Kaylee Ver . . fuck</h6>
 
           </div>
           <!-- Rob's review -->
-          <div class="ReviewCol3" style="float: left; margin-left: 30px; margin-top: 20px;">
+          <div class="ReviewCol3">
 
             <div class="pic"><img src="img/Kaylee_Striv3r.jpg" width="245" height="255" alt="Kaylee pic"></div>
 
           </div>
-          <div class="ReviewCol4" style="background-color: white; height: 255px; width: 245px; float: left; padding: 25px;margin-top: 20px;">
+          <div class="ReviewCol4" >
 
             <h6><i> "Blah Blah Blah Blah Blah Bla Blah Blah Bla Blah Blah Bla. Blah Blah Bla Blah Blah Bla.  Blah Blah Bla Blah Blah Bla. "<i></h6>
             <h6> - Rob Lawrenz</h6>
@@ -559,7 +559,7 @@
 
 <div class="scroll-down"></div>
 <div class="container"></div>
-<div class="modal">
+<div class="modal" href="#mymodal">
   <div class="modal-container">
     <div class="modal-left">
       <div class = "form" id="signup">
@@ -577,7 +577,7 @@
             <div class="validation"></div>
           </div>
           <div class="modal-buttons">
-            <button class="input-button" data-dismiss="modal">Submit</button>
+            <button class="submit-button" data-dismiss="modal">Submit</button>
           </div>
       </form>
     </div>
@@ -597,18 +597,7 @@
   <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
   <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
   <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyi9hUDY6VZtJbZsAI9KwdVDEutI7_0TfinDL_ysKBAuflnVVlh/exec'
-    const form = document.forms['submit-to-google-sheet']
 
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message));
-        alert("Thank you! Keep an eye on your inbox for Striv3r updates.");
-    })
-  </script>
 
   </main>
 
@@ -661,3 +650,4 @@
 
 </body>
 </html>
+
