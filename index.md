@@ -136,9 +136,9 @@
 
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight" style="position: relative; text-align: center;">
-                <a href="https://www.instagram.com/hi.kekai/?hl=en" target="_blank"><img src="img/surfup.png" alt="Paris" width="400" height="300" border="5">
-                </a><!-- https://www.instagram.com/hi.kekai/?hl=en -->
+          <div id="surf" class="col-lg-6 background order-lg-2 order-1 wow fadeInRight" style="position: relative; text-align: center;">
+                <a href="https://www.instagram.com/hi.kekai/?hl=en" target="_blank"><img src="./img/surfup.png" alt="Paris" width="400" height="300" border="5">
+                </a>
           </div>
         </div>
 
@@ -155,25 +155,32 @@
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div class="row counters">
+
   				<div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">12</span>
             <p>Clients</p>
   				</div>
+
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">521</span>
             <p>Goals Met</p>
   				</div>
+
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">1,463</span>
             <p>Company Users</p>
   				</div>
+
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">4</span>
             <p>Leaders</p>
   				</div>
+
   			</div>
+
       </div>
     </section><!-- #facts
+
     <!--==========================
       Services Section
     ============================
@@ -205,6 +212,7 @@
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
@@ -227,6 +235,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </section><!-- #services -->
 
@@ -244,6 +253,7 @@
             <a class="cta-btn align-middle" href="#">Call To Action</a>
           </div>
         </div>
+
       </div>
     </section><!-- #call-to-action -->
 
@@ -257,6 +267,7 @@
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
         <div class="row">
+
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
@@ -267,6 +278,7 @@
             </ul>
           </div>
         </div>
+
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <a href="">
@@ -277,6 +289,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <a href="">
               <img src="img/portfolio/web2.jpg" alt="">
@@ -286,6 +299,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <a href="">
               <img src="img/portfolio/app3.jpg" alt="">
@@ -295,6 +309,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
             <a href="">
               <img src="img/portfolio/card1.jpg" alt="">
@@ -304,6 +319,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
             <a href="">
               <img src="img/portfolio/card2.jpg" alt="">
@@ -313,6 +329,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <a href="">
               <img src="img/portfolio/web3.jpg" alt="">
@@ -322,6 +339,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
             <a href="">
               <img src="img/portfolio/card3.jpg" alt="">
@@ -331,6 +349,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <a href="">
               <img src="img/portfolio/app2.jpg" alt="">
@@ -340,6 +359,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
             <a href="">
               <img src="img/portfolio/logo1.jpg" alt="">
@@ -349,6 +369,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
             <a href="">
               <img src="img/portfolio/logo3.jpg" alt="">
@@ -358,6 +379,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <a href="">
               <img src="img/portfolio/web1.jpg" alt="">
@@ -367,6 +389,7 @@
               </div>
             </a>
           </div>
+
           <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
             <a href="">
               <img src="img/portfolio/logo2.jpg" alt="">
@@ -376,7 +399,9 @@
               </div>
             </a>
           </div>
+
         </div>
+
       </div>
     </section><!-- #portfolio -->
 
@@ -396,10 +421,10 @@
             <div class="pic"><img src="img/Kaylee_Striv3r.jpg" width="245" height="255" alt="Kaylee pic"></div>
 
           </div>
-          <div class="ReviewCol2">
+          <div class="ReviewCol2" id="Kayrev">
 
             <h6><i> "Blah Blah Blah Blah Blah Bla Blah Blah Bla Blah Blah Bla. Blah Blah Bla Blah Blah Bla.  Blah Blah Bla Blah Blah Bla. "<i></h6>
-            <h6> - Kaylee Ver . . fuck</h6>
+            <h6> - Kaylee Ver</h6>
 
           </div>
           <!-- Rob's review -->
@@ -408,7 +433,7 @@
             <div class="pic"><img src="img/Kaylee_Striv3r.jpg" width="245" height="255" alt="Kaylee pic"></div>
 
           </div>
-          <div class="ReviewCol4" >
+          <div class="ReviewCol4" id="Robrev" >
 
             <h6><i> "Blah Blah Blah Blah Blah Bla Blah Blah Bla Blah Blah Bla. Blah Blah Bla Blah Blah Bla.  Blah Blah Bla Blah Blah Bla. "<i></h6>
             <h6> - Rob Lawrenz</h6>
@@ -431,6 +456,7 @@
           <h3 class="section-title">Join our Email List!</h3>
           <p class="section-description">Striv3r is coming soon! Join our email list and one of our team members will be in contact with you.</p>
         </div>
+
         <div class="form" id="signup">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
@@ -452,24 +478,29 @@
         </div>
       </div>
 </section>
+
 <!--
       <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-4">
+
             <div class="info">
               <div>
                 <i class="fa fa-map-marker"></i>
                 <p>A108 Adam Street<br>New York, NY 535022</p>
               </div>
+
               <div>
                 <i class="fa fa-envelope"></i>
                 <p>info@example.com</p>
               </div>
+
               <div>
                 <i class="fa fa-phone"></i>
                 <p>+1 5589 55488 55s</p>
               </div>
             </div>
+
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -477,7 +508,9 @@
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
+
           </div>
+
           <div class="col-lg-5 col-md-8">
             <div class="form" id="signup">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
@@ -503,7 +536,9 @@
               </form>
             </div>
           </div>
+
         </div>
+
       </div>
     </section><!-- #contact -->
 
@@ -513,6 +548,9 @@
     <section id="bottomhero">
       <div class="hero-container">
         <h2 class="title">Reviews</h2>
+
+
+
       </div>
     </section><!-- #hero -->
 
