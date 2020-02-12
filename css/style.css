@@ -16,13 +16,13 @@ body {
 }
 
 a {
-  color: #41542D;
+  color: white;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #2dca98;
+  color: white;
   outline: none;
   text-decoration: none;
 }
@@ -44,18 +44,7 @@ h6 {
   padding: 0;
 }
 
-/* Prelaoder */
 
-#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
-}
 
 /* Back to top button */
 
@@ -85,7 +74,7 @@ h6 {
 
 /*--------------------------------------------------------------
 # Header
---------------------------------------------------------------*/
+--------------------------------------------------------------
 
 #header {
   padding-top: 20px;
@@ -133,7 +122,7 @@ h6 {
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -242,7 +231,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 
-/* Nav Menu Essentials */
+/* Nav Menu Essentials
 
 .nav-menu,
 .nav-menu * {
@@ -282,31 +271,13 @@ h6 {
   min-width: 180px;
 }
 
-/* Nav Menu Arrows */
 
-.sf-arrows .sf-with-ul {
-  padding-right: 30px;
-}
-
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
-}
-
-/* Nav Meu Container */
+/* Nav Meu Container
 
 #nav-menu-container {
   float: right;
   margin: 0;
-}
+}*/
 
 /* Nav Meu Styling */
 
@@ -379,7 +350,7 @@ h6 {
   margin: 0;
 }
 
-/* Mobile Nav Toggle */
+/* Mobile Nav Toggle
 
 #mobile-nav-toggle {
   position: fixed;
@@ -400,7 +371,7 @@ h6 {
   color: #fff;
 }
 
-/* Mobile Nav Styling */
+/* Mobile Nav Styling*/
 
 #mobile-nav {
   position: fixed;
@@ -473,7 +444,7 @@ h6 {
   display: none;
 }
 
-/* Mobile Nav body classes */
+/* Mobile Nav body classes*/
 
 body.mobile-nav-active {
   overflow: hidden;
@@ -516,7 +487,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about {
   background: #D9DCE0;
-  padding: 60px 0;
+  padding: 40px 0;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -538,6 +509,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     #about img
     {
         display: none;
+        height: 0px;
+        margin: 0px;
+    }
+    #about{
+      padding-top: 0px;
+      margin-top: 0px;
     }
 }
 
@@ -879,8 +856,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 90vh;
   background: url(../img/RooImg.jpg) top center;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   background-attachment: fixed;
+}
+@media (max-width: 1200px)
+{
+    #team {
+      background: #fff;
+      padding: 80px 0 60px 0;
+      width: 100%;
+      height: 120vh;
+      background: url(../img/RooImg.jpg) top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      background-attachment: fixed;
+    }
+
 }
 #team .team-title{
   color: white;
@@ -897,20 +890,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 {
     #team img{ display: none;}
     #team #Robrev{
-      margin-left: 50px;
+      margin-left: 30px;
     }
     #team #Kayrev{
-      margin-left: 50px;
+      margin-right: 50px;
     }
 
 }
-@media (max-width: 830px)
+@media (max-height: 750px)
 {
+    #team img{ display: none;}
     #team #Robrev{
       display: none;
     }
-
 }
+
+
 
 #team .ReviewCol1{
   float: left;
@@ -1186,18 +1181,24 @@ color: #35A715;
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: 34px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  @media (max-width: 700px)
+  {
+      #hero h2
+      {
+        font-size: 34px;
+        line-height: 44px;
+      }
   }
 
   #nav-menu-container {
     display: none;
   }
 
-  #mobile-nav-toggle {
-    display: inline;
-  }
+
 
   #about .about-container .title {
     padding-top: 15px;

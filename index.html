@@ -40,17 +40,17 @@
 <body>
   <!--==========================
   Header
-  ============================-->
+  ============================
   <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
         <!--<a href="#hero"><img src="img/StriverLogo.png" alt="" title="" /></img></a>-->
         <!-- Uncomment below if you prefer to use a text logo
-        <h1><a href="#hero">Striv3r</a></h1>-->
+        <h1><a href="#hero">Striv3r</a></h1>
       </div>
 
-      <!--
+
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
@@ -77,7 +77,7 @@
           </li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav><!-- #nav-menu-container
     </div>
   </header><!-- #header -->
 
