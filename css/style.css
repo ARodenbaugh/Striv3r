@@ -228,13 +228,13 @@ h6 {
   margin: 50px 50px 0px 50px;
   border-radius: 30px;
   transition: 0.5s;
-  border: 2px solid #8AB65C;
+  border: 2px solid #4CF81D;
   color: white;
 }
 
 #hero .btn-get-started:hover {
-  background: #91C193;
-  border: 2px solid #91C193;
+  background: #70C957;
+  border: 2px solid #70C957;
   color: white;
 }
 
@@ -884,6 +884,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Courier New", Courier, monospace;
   text-shadow: 2px 2px #10ED19;
 }
+
+#team .ReviewCol1{
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#team .ReviewCol2{
+  background-color: white;
+  height: 255px;
+  width: 245px;
+  float: left;
+  padding: 25px;
+  margin-top: 20px;
+}
+#team .ReviewCol3{
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#team .ReviewCol4{
+background-color: white;
+ height: 255px;
+ width: 245px;
+ float: left;
+ padding: 25px;
+ margin-top: 20px;
+}
+
 
 #team .member {
   text-align: center;
