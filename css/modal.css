@@ -75,12 +75,12 @@ body {
   margin: 50px 50px 0px 50px;
   border-radius: 30px;
   transition: 0.5s;
-  border: 2px solid #8AB65C;
+  border: 2px solid #4CF81D;
   color: white;
 }
 .modal-button:hover {
-  background: #91C193;
-  border: 2px solid #91C193;
+  background: #70C957;
+  border: 2px solid #70C957;
   color: white ;
 }
 .modal-right {
@@ -105,9 +105,7 @@ body {
   height: 100%;
   background: rgba(51, 51, 51, 0.85);
 }
-.modal.is-open .modal-button {
-  opacity: 0;
-}
+
 .modal.is-open .modal-container {
   opacity: 1;
   -webkit-transition-duration: 0.6s;
@@ -127,18 +125,6 @@ body {
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
 }
-.modal-buttons {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-          align-items: center;
-}
-.modal-buttons a {
-  color: rgba(91, 197, 64, 0.6);
-  font-size: 14px;
-}
 
 .sign-up {
   margin: 60px 0 0;
@@ -146,10 +132,10 @@ body {
   text-align: center;
 }
 .sign-up a {
-  color: #8c7569;
+  color: white;
 }
 
-.input-button {
+.submit-button {
   padding: 8px 12px;
   outline: none;
   border: 0;
@@ -162,7 +148,7 @@ body {
   transition: 0.3s;
   cursor: pointer;
 }
-.input-button:hover {
+.submit-button:hover {
   background: #CDCDCD;
   color: #4A4A4A;
 }
@@ -170,8 +156,7 @@ body {
 .input-label {
   font-size: 11px;
   text-transform: uppercase;
-  font-family: Verdana, Geneva, sans-serif
-;
+  font-family: Verdana, Geneva, sans-serif;
   font-weight: 600;
   letter-spacing: 0.7px;
   color: black;
