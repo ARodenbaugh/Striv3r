@@ -1,4 +1,4 @@
-Thanks for downloading this theme!
+Striv3r launch page
 
 Theme Name: Regna
 Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
