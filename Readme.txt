@@ -1,5 +1,10 @@
-Striv3r launch page
+Striv3r landing page
 
+Includes email signup modal, about section, and customer review section.
+
+
+
+Initial template taken from:
 Theme Name: Regna
 Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
 Author: BootstrapMade.com
