@@ -51,8 +51,8 @@
     font-size: 14px;
       text-align: center;
     overflow: scroll;
-      min-height: 290px;
       min-width: 100%;
+
   }
   .carousel .item .img-box {
     width: 195px;
@@ -76,6 +76,8 @@
     padding:25px;
     margin-left: 50px;
     margin-right: 50px;
+    overflow: scroll;
+    max-height: 350px;
   }
 
   .carousel .overview {
