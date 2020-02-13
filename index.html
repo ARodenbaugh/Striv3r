@@ -42,15 +42,17 @@
     float: none !important;
   }
   .carousel {
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 0 70px;
+    width: 100%;
   }
   .carousel .item {
     color: #999;
     font-size: 14px;
       text-align: center;
-    overflow: hidden;
+    overflow: scroll;
       min-height: 290px;
+      min-width: 100%;
   }
   .carousel .item .img-box {
     width: 195px;
