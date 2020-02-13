@@ -7,6 +7,12 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -15,18 +21,108 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet Files -->
   <link href="css/modal.css" rel="stylesheet">
 
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <style type="text/css">
+
+
+  .col-center {
+    margin: 0 auto;
+    float: none !important;
+  }
+  .carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+  }
+  .carousel .item {
+    color: #999;
+    font-size: 14px;
+      text-align: center;
+    overflow: hidden;
+      min-height: 290px;
+  }
+  .carousel .item .img-box {
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid #70E233;
+    border-radius: 50%;
+  }
+  .carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+  .carousel .testimonial {
+    padding: 25px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: white;
+    padding:25px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .carousel .overview {
+    font-style: italic;
+    font-size: 22px;
+    color: #70E233;
+  }
+  .carousel .overview b {
+    text-transform: uppercase;
+      color: #70E233;
+      font-size: 22px;
+      margin-bottom: 20px;
+  }
+  .carousel .carousel-control {
+    width: 40px;
+      height: 40px;
+      margin-top: -20px;
+      top: 50%;
+    background: none;
+    color: red;
+  }
+  .carousel-control i {
+      font-size: 68px;
+    line-height: 42px;
+      position: absolute;
+      display: inline-block;
+    color: #54DF09;
+  }
+  .carousel .carousel-indicators {
+    bottom: -10px;
+
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 1px 3px;
+    border-radius: 50%;
+  }
+  .carousel-indicators li {
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+  }
+  .carousel-indicators li.active {
+    background: white;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+  }
+
+  </style>
 
 
   <!-- =======================================================
@@ -407,27 +503,34 @@
 
     <!--==========================
       Team Section
-    ============================-->
+    ============================
 
     <section id="team">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="team-title">What Our Clients Are Saying</h3>
         </div>
+        <!--
         <div class="row" style="display: table; padding-top: 40px;">
-          <!-- Kaylee's review-->
+          <!-- Kaylee's review
           <div class="ReviewCol1">
 
             <div class="pic"><img src="img/Kaylee_Striv3r.jpg" width="245" height="255" alt="Kaylee pic"></div>
 
           </div>
-          <div class="ReviewCol2" id="Kayrev">
+          <div class="ReviewCol2" id="Kayrev" style="width: 800px;">
 
-            <h6><i> "Blah Blah Blah Blah Blah Bla Blah Blah Bla Blah Blah Bla. Blah Blah Bla Blah Blah Bla.  Blah Blah Bla Blah Blah Bla. "<i></h6>
-            <h6> - Kaylee Ver</h6>
+            <h6><i> "I don't even know where to start! The concept of Striv3r is seriously something that I have been trying to accomplish
+              my whole adult life. Between my personal & professional life, I have struggled making realistic and achievable goals for myself.
+              It is so easy to make a goal... But how often have you failed at even getting close to completing that goal? GUYS I've been there
+              so many times! But then I started with Striv3r, and all that changed! Striv3r helped me make goals that were action based and
+              something that was within MY power to accomplish, and HOLY MOLY it works! Iv'e made leaps and bounds with my goals and I've reached more
+              goals in the first month of STriv3r than I have in the last 6 months on my own! If you are looking for a place and a group
+              of people you can call your community and your family, Striv3r is for you. You've got this and so does your Striv3r family! "<i></h6>
+            <h6> - Kaylee V.</h6>
 
           </div>
-          <!-- Rob's review -->
+          <!-- Rob's review
           <div class="ReviewCol3">
 
             <div class="pic"><img src="img/Kaylee_Striv3r.jpg" width="245" height="255" alt="Kaylee pic"></div>
@@ -437,15 +540,78 @@
 
             <h6><i> "Blah Blah Blah Blah Blah Bla Blah Blah Bla Blah Blah Bla. Blah Blah Bla Blah Blah Bla.  Blah Blah Bla Blah Blah Bla. "<i></h6>
             <h6> - Rob Lawrenz</h6>
-
-
           </div>
-
-
         </div>
+
+
 
       </div>
     </section><!-- #team -->
+<section id="team">
+  <div class="container wow fadeInUp">
+  <div class="container">
+	<div class="row">
+		<div class="col-md-8 col-center m-auto">
+			<h3 class="team-title" style="padding:0px; margin:0px;">Testimonials</h3>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding:0px; margin:5px;">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+				</ol>
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item carousel-item active">
+						<div class="img-box"><a href="http://Www.kayleelynncreatives.com" target="_blank"><img src="/img/Kaylee_Striv3r.jpg" alt=""></a></div>
+						<p class="testimonial">"I don't even know where to start! The concept of Striv3r is seriously something that I have been trying to accomplish
+              my whole adult life. Between my personal & professional life, I have struggled making realistic and achievable goals for myself.
+              It is so easy to make a goal... But how often have you failed at even getting close to completing that goal? GUYS I've been there
+              so many times! But then I started with Striv3r, and all that changed! Striv3r helped me make goals that were action based and
+              something that was within MY power to accomplish, and HOLY MOLY it works! Iv'e made leaps and bounds with my goals and I've reached more
+              goals in the first month of STriv3r than I have in the last 6 months on my own! If you are looking for a place and a group
+              of people you can call your community and your family, Striv3r is for you. You've got this and so does your Striv3r family!"</p>
+						<p class="overview"><b>- Kaylee V.</b></p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src="/img/Striv3r_Working.PNG" alt=""></div>
+						<p class="testimonial">"I don't even know where to start! The concept of Striv3r is seriously something that I have been trying to accomplish
+              my whole adult life. Between my personal & professional life, I have struggled making realistic and achievable goals for myself.
+              It is so easy to make a goal... But how often have you failed at even getting close to completing that goal? GUYS I've been there
+              so many times! But then I started with Striv3r, and all that changed! Striv3r helped me make goals that were action based and
+              something that was within MY power to accomplish, and HOLY MOLY it works! Iv'e made leaps and bounds with my goals and I've reached more
+              goals in the first month of STriv3r than I have in the last 6 months on my own! If you are looking for a place and a group
+              of people you can call your community and your family, Striv3r is for you. You've got this and so does your Striv3r family!"</p>
+						<p class="overview"><b>- Pelt</b></p>
+					</div>
+          <!--
+					<div class="item carousel-item">
+						<div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>
+						<p class="testimonial">"I don't even know where to start! The concept of Striv3r is seriously something that I have been trying to accomplish
+              my whole adult life. Between my personal & professional life, I have struggled making realistic and achievable goals for myself.
+              It is so easy to make a goal... But how often have you failed at even getting close to completing that goal? GUYS I've been there
+              so many times! But then I started with Striv3r, and all that changed! Striv3r helped me make goals that were action based and
+              something that was within MY power to accomplish, and HOLY MOLY it works! Iv'e made leaps and bounds with my goals and I've reached more
+              goals in the first month of STriv3r than I have in the last 6 months on my own! If you are looking for a place and a group
+              of people you can call your community and your family, Striv3r is for you. You've got this and so does your Striv3r family!"</p>
+						<p class="overview"><b>- Michael Holz</b></p>
+					</div>
+				</div>-->
+				<!-- Carousel controls -->
+				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev" style="color: red;">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+</section>
 
     <!--==========================
       Contact Section
@@ -640,6 +806,8 @@
   <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
@@ -647,6 +815,15 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   <script src="js/popup.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script src="js/popup.js"></script>
+
+
 
 </body>
 </html>

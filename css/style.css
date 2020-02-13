@@ -9,11 +9,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+html{
+    scroll-behavior: smooth;
+}
 body {
   background: #fff;
   color: #666666;
   font-family: "Courier New", Courier, monospace;
+
 }
 
 a {
@@ -880,24 +883,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
   margin-bottom: 5px;
   padding-bottom: 5px;
   font-size: 58px;
   font-family: "Courier New", Courier, monospace;
-  text-shadow: 6px 6px black;
+  text-shadow: 2px 2px black;
 }
-@media (max-width: 1200px)
-{
-    #team img{ display: none;}
-    #team #Robrev{
-      margin-left: 30px;
-    }
-    #team #Kayrev{
-      margin-right: 50px;
-    }
 
-}
 @media (max-height: 750px)
 {
     #team img{ display: none;}
@@ -2067,6 +2059,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   background-attachment: fixed;
 }
+#team .team-title{
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 6px 6px black;
+}
 @media (max-width: 1200px)
 {
     #team {
@@ -2081,38 +2081,10 @@ body.mobile-nav-active #mobile-nav-toggle {
       max-width: 100% ;
       height: auto ;
     }
-
-}
-#team .team-title{
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-  font-size: 58px;
-  font-family: "Courier New", Courier, monospace;
-  text-shadow: 6px 6px black;
-}
-@media (max-width: 1200px)
-{
-    #team img{ display: none;}
-    #team #Robrev{
-      margin-left: 30px;
-    }
-    #team #Kayrev{
-      margin-right: 50px;
-    }
-
-}
-@media (max-height: 250px)
-{
-    #team img{ display: none;}
-    #team #Robrev{
-      display: none;
+    #team .team-title{
+      font-size: 34px;
     }
 }
-
 
 
 #team .ReviewCol1{
@@ -2125,10 +2097,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: white;
   color: #35A715;
   height: 255px;
-  width: 245px;
+  width: 1645px;
   float: left;
-  padding: 25px;
+  padding: 20px;
   margin-top: 20px;
+  word-wrap: break-word;
 }
 #team .ReviewCol3{
   float: left;
@@ -2153,10 +2126,6 @@ color: #35A715;
   overflow: hidden;
   height: 200px;
 
-}
-
-#team .member .pic img {
-  max-width: 80%;
 }
 
 #team .member h4 {
@@ -2406,8 +2375,78 @@ color: #35A715;
     display: none;
   }
 
+/* Carroisell*/
 
 
-  #about .about-container .title {
-    padding-top: 15px;
+  .col-center {
+  	margin: 0 auto;
+  	float: none !important;
+  }
+  .carousel {
+  	margin: 50px auto;
+  	padding: 0 70px;
+  }
+  .carousel .item {
+  	color: #999;
+  	font-size: 14px;
+      text-align: center;
+  	overflow: hidden;
+      min-height: 290px;
+  }
+  .carousel .item .img-box {
+  	width: 135px;
+  	height: 135px;
+  	margin: 0 auto;
+  	padding: 5px;
+  	border: 1px solid #ddd;
+  	border-radius: 50%;
+  }
+  .carousel .img-box img {
+  	width: 100%;
+  	height: 100%;
+  	display: block;
+  	border-radius: 50%;
+  }
+  .carousel .testimonial {
+  	padding: 30px 0 10px;
+  }
+  .carousel .overview {
+  	font-style: italic;
+  }
+  .carousel .overview b {
+  	text-transform: uppercase;
+  	color: #7AA641;
+  }
+  .carousel .carousel-control {
+  	width: 40px;
+      height: 40px;
+      margin-top: -20px;
+      top: 50%;
+  	background: none;
+  }
+  .carousel-control i {
+      font-size: 68px;
+  	line-height: 42px;
+      position: absolute;
+      display: inline-block;
+  	color: rgba(0, 0, 0, 0.8);
+      text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  }
+  .carousel .carousel-indicators {
+  	bottom: -40px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+  	width: 10px;
+  	height: 10px;
+  	margin: 1px 3px;
+  	border-radius: 50%;
+  }
+  .carousel-indicators li {
+  	background: #999;
+  	border-color: transparent;
+  	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+  }
+  .carousel-indicators li.active {
+  	background: #555;
+  	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
   }
